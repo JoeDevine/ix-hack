@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Profile from "./Profile";
+import Home from "./Home";
 
 const App = () => (
   <Router>
@@ -10,13 +11,5 @@ const App = () => (
     </div>
   </Router>
 );
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
 
 export default App;
