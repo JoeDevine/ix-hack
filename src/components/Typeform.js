@@ -9,7 +9,7 @@ class Typeform extends Component {
             hideHeaders: true,
             hideFooters: true,
             onSubmit: () => {
-                console.log('typeform submitted');
+                window.location.href = '/profile';
             }
         }).open();
     }
