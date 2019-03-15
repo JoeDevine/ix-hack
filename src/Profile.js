@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import profilePic from "./profilepic.jpg";
+import Skills from "./Skills";
 import styled from "styled-components";
 
 const ImageContainer = styled("div")`
@@ -17,7 +18,7 @@ const Profile = () => (
     <Grid item>{"Name"}</Grid>
     <Grid item>{"Summary"}</Grid>
     <Grid item>{"Contact Details"}</Grid>
-    <Grid item>{"Hard Skills Proficiency"}</Grid>
+    <Grid item>{Skills}</Grid>
     <Grid item>{"Soft Skills Proficiency"}</Grid>
     <Grid item>{"Experience"}</Grid>
     <Grid item>{"Interests"}</Grid>
